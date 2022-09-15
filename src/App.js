@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React, { useContext, createContext, useState } from "react";
+import { BrowserRouter as Router, Switch, useLocation } from "react-router-dom";
+import './public/my.css'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Components/Footer';
+import MyNavbar from './Components/Navbar';
+import Profile from "./Components/Profile";
 
-function App() {
+
+
+
+
+export default function App() {
+
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <MyNavbar />
+       <Profile />
+       <br />
+
+          
+     
+
+       <br />
+       <Footer />
+       <br />
     </div>
   );
 }
 
-export default App;
+

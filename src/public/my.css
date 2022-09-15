@@ -1,0 +1,97 @@
+html {
+  background-color: lightsalmon;
+  margin: 0;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.nav li {float: left;}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  font-family: Copperplate, fantasy;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 100px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover {color: aqua;}
+
+@media screen and (max-width: 600px) {
+    ul.nav li {float: left;}
+}
+
+
+
+
+
+
+
+
+
+
+/* Navbar
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 60px;
+  width: 100%;
+  background-color: lightseagreen;
+  position: fixed;
+  overflow: none;
+}
+
+ul.nav li a {
+  display: block;
+  color: black;
+  font-family: Copperplate, fantasy;
+  font-size: 24px;
+  text-decoration: none;
+  float: left;
+}
+ 
+ul.nav li a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 2000px) {
+  ul.nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.nav li a {
+    float: none;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.nav li a {
+    text-align: center;
+    float: none;
+  }
+} */
+
+/* Footer */
+.fa-brands {
+  color: black;
+  animation: mymove 9s infinite;
+}
+
+@keyframes mymove {
+  50% {color: lightseagreen;}
+}
+
