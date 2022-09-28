@@ -20,70 +20,31 @@ body {
   color: white;
   font-size: 24px;
   font-weight: bold;
-  align-items: left;
-  padding: 15px 20px;
+  text-align: right;
+  padding: 15px;
+  padding-right: 15%;
+  padding-top: 50px;
   text-decoration: none;
   font-family: Copperplate;
 }
 
 .mainNavbar li a:hover {color: aqua;}
 
-
-
-
-
-
-
-
-
-
-
-/* Navbar
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 60px;
-  width: 100%;
-  background-color: lightseagreen;
-  position: fixed;
-  overflow: none;
+/*  */
+h1, h3 {
+  color: white;
 }
 
-ul.nav li a {
-  display: block;
-  color: black;
-  font-family: Copperplate, fantasy;
-  font-size: 24px;
-  text-decoration: none;
-  float: left;
-}
- 
-ul.nav li a:hover {
-    color: white;
-}
 
-@media screen and (max-width: 2000px) {
-  ul.nav {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  ul.nav li a {
-    float: none;
-    padding: 15px;
-  }
-  
-  div.content {margin-left: 0;}
-}
 
-@media screen and (max-width: 400px) {
-  ul.nav li a {
-    text-align: center;
-    float: none;
-  }
-} */
+
+
+
+
+
+
+
+
 
 /* Footer */
 .fa-brands {

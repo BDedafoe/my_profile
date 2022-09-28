@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import './public/my.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar';
 import Portfolio from './views/portfolio';
@@ -14,7 +13,9 @@ import Resume from './views/resume';
 const App = () => {
   return (
     <div className="App">
-        <div>
+        <div className="Header">
+            <h1>My Name is Brittany and this is my website</h1>
+        </div>    
       <Router>
       <Navbar />
       <Routes>
@@ -24,7 +25,6 @@ const App = () => {
         <Route path='/resume' element={<Resume/>} />
       </Routes>
     </Router>
-        </div>
     </div>
   );
 }
