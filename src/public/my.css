@@ -1,33 +1,33 @@
-html {
-  background-color: lightsalmon;
-  margin: 0;
+body {
+  background-image: url('/src/public/mainBackground.jpg');
+  margin: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
-ul.nav {
+/* CSS for Navbar */
+.mainNavbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  
 }
 
-ul.nav li {float: left;}
-
-ul.nav li a {
+.mainNavbar li a {
   display: block;
   color: white;
-  font-family: Copperplate, fantasy;
   font-size: 24px;
-  text-align: center;
-  padding: 10px 100px;
+  font-weight: bold;
+  align-items: left;
+  padding: 15px 20px;
   text-decoration: none;
+  font-family: Copperplate;
 }
 
-ul.nav li a:hover {color: aqua;}
+.mainNavbar li a:hover {color: aqua;}
 
-@media screen and (max-width: 600px) {
-    ul.nav li {float: left;}
-}
 
 
 
