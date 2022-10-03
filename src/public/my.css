@@ -1,6 +1,7 @@
-body {
+.App {
   background-image: url('/src/public/mainBackground.jpg');
-  margin: 0%;
+  min-width: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -18,6 +19,7 @@ body {
 .mainNavbar li a {
   display: block;
   color: white;
+  position: static;
   font-size: 24px;
   font-weight: bold;
   text-align: right;
@@ -31,28 +33,24 @@ body {
 .mainNavbar li a:hover {color: aqua;}
 
 /*  */
-h1, h3 {
+h3 {
   color: white;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-/* Footer */
+/* Header Icons */
 .fa-brands {
-  color: black;
-  animation: mymove 9s infinite;
+  color: white;
 }
 
-@keyframes mymove {
-  50% {color: lightseagreen;}
+.fa-solid {
+  color: white;
+}
+
+/* Header */
+.footer {
+  padding: 350px 120px 0;
+  text-align: left;
 }
 
