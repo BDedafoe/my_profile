@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   
+  
 }
 
 /* CSS for Navbar */
@@ -39,16 +40,12 @@ h3 {
 
 
 
-/* Header Icons */
-.fa-brands {
-  color: white;
+/* Footer Icons */
+.fa-brands, .fa-solid {
+  color: rgb(255, 182, 249);
 }
 
-.fa-solid {
-  color: white;
-}
-
-/* Header */
+/* Footer */
 .footer {
   padding: 350px 120px 0;
   text-align: left;
