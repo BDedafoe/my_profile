@@ -19,7 +19,8 @@
     "web-vitals": "^2.1.4"   
   },
   "engines": {
-    "node": "16.17.1"
+    "node": "16.17.1",
+    "npm": "8.13.2"
   },
   "scripts": {
     "start": "npm run build",
