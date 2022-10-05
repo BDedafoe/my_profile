@@ -16,7 +16,8 @@
     "react-router-dom": "^6.4.0",
     "react-scripts": "^2.1.3",
     "react-serve-build": "^0.2.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage" : "http://myname.github.io/myapp"
   },
   "engines": {
     "node": "16.17.1"
