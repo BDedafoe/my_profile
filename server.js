@@ -1,13 +1,10 @@
-const path = require('path');
 const express = require('express');
 const app = express();
-const publicPath = path.join(__dirname, '..', '/public');
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3009;
 
-app.use(express.static(publicPath));
 
-app.get('*', (req, res) => {
-   res.sendFile(path.join(publicPath, 'index.html'));
+app.get('/src/App.js', (req, res) => {
+   res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
 });
 
 app.listen(port, () => {
