@@ -1,44 +1,45 @@
+.body {
+  margin: 0;
+}
+
 .App {
   background-image: url('./mainBackground.jpg');
-  background-size: 'cover';
-  margin: 0%;
+  background-size: cover;
+  background-repeat:no-repeat; 
   min-width: 100vh;
   min-height: 100vh;
-  background-repeat:no-repeat; 
   font-family: Copperplate;
-
+  color: white;
+  
 }
 
 /* CSS for Navbar */
 .mainNavbar {
+  display: block;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+    
+  padding: 40px 0 500px;
+  padding-right: 15%;
   overflow: hidden;
-  
+  text-align: right;
+  float: right;
 }
 
 .mainNavbar li a {
-  display: block;
   color: white;
+  text-decoration: none;
   position: static;
   font-size: 24px;
   font-weight: bold;
-  text-align: right;
-  padding: 15px;
-  padding-right: 15%;
-  padding-top: 50px;
-  text-decoration: none;
-  font-family: Copperplate;
+  
+  
+  
+  
 }
 
 .mainNavbar li a:hover {color: aqua;}
 
 /*  */
-h3 {
-  color: white;
-}
-
 
 
 /* Footer Icons */
@@ -46,9 +47,17 @@ h3 {
   color: rgb(255, 182, 249);
 }
 
+.fa-brands:hover, .fa-solid:hover {
+  color: aqua;
+}
+
 /* Footer */
 .footer {
-  padding: 350px 120px 0;
-  text-align: left;
+  display: inline-lock;
+  padding: 350px 120px;
+  position: fixed;
+  float: left;
+  cursor: pointer;
+  
 }
 
