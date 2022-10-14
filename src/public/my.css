@@ -1,11 +1,12 @@
 .App {
-  background-image: url('/src/public/mainBackground.jpg');
+  background-image: url('./mainBackground.jpg');
+  background-size: 'cover';
+  margin: 0%;
   min-width: 100vh;
   min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  
+  background-repeat:no-repeat; 
+  font-family: Copperplate;
+
 }
 
 /* CSS for Navbar */
@@ -47,7 +48,7 @@ h3 {
 
 /* Footer */
 .footer {
-  padding-bottom: 500px;
+  padding: 350px 120px 0;
   text-align: left;
 }
 

@@ -12,9 +12,7 @@ import Resume from './views/resume';
 
 const App = () => {
   return (
-    <div className="App">
-        
-            
+    <div className="App">       
             <br></br>
             <br></br>  
       <Router>
