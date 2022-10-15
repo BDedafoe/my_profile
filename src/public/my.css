@@ -8,13 +8,13 @@
   min-height: 100vh;
   font-family: Copperplate;
   color: white;
-  padding: 1%;
+  padding: 0;
   
 }
 
 /* CSS for Navbar */
 .mainNavbar {
-  display: flex;
+  display: block;
   flex-direction: column;
   flex-wrap: wrap;
   list-style-type: none;
@@ -57,14 +57,26 @@
 .footer {
   display: block;
   padding: 350px 120px;
-  position: fixed;
+  position: static;
   float: left;
   cursor: pointer;
   
 }
 
-.aboutContainer {
-  display: block;
-  
+.flex-container {
+  display: inline-flex;
+}
 
+.aboutContainer {
+  width: 50%;
+  float: left;
+  padding: 20px;
+    
+}
+
+.imageContainer {
+  width: 50%;
+  float: left;
+  padding: 20px;
+    
 }
