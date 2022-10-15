@@ -1,6 +1,4 @@
-* {
-  margin: 0;
-}
+
 
 .App {
   background-image: url('./mainBackground.jpg');
@@ -10,16 +8,20 @@
   min-height: 100vh;
   font-family: Copperplate;
   color: white;
+  padding: 1%;
   
 }
 
 /* CSS for Navbar */
 .mainNavbar {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   list-style-type: none;
     
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   padding-right: 15%;
+  padding-left: 100px;
   overflow: hidden;
   text-align: right;
   float: right;
@@ -53,7 +55,7 @@
 
 /* Footer */
 .footer {
-  display: inline-lock;
+  display: block;
   padding: 350px 120px;
   position: fixed;
   float: left;
@@ -61,3 +63,8 @@
   
 }
 
+.aboutContainer {
+  display: block;
+  
+
+}
