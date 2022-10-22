@@ -12,13 +12,15 @@ const Resume = () => {
           <li>JavaScript | React | Redux | Express</li>
           <li>Node.js</li>
           <li>CSS and CSS Frameworks</li>
-          <li>SQL | Sequelize | PGAdmin | Postgres | MongoDB</li>
+          <li>SQL | Sequelize | PGAdmin | Postgres</li>
+          <li>MongoDB</li>
           <li>Database Development</li>
           <li>Github</li>
         <br></br>
           <h2>Certification</h2>
             <h3>Google Data Analytics Specialization</h3>
             <h3>Coursera | Google - September 2022</h3>
+        <br></br>    
           <h2>Education</h2>
             <h3>NC State Coding Bootcamp</h3>
             <h3>North Carolina State University - Raleigh, NC</h3>

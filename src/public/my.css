@@ -34,11 +34,8 @@ body {
 .mainNavbar li a {
   color: white;
   text-decoration: none;
-  
   font-size: 24px;
   font-weight: bold;
-  
-  
   
   
 }
@@ -67,24 +64,26 @@ body {
   
 }
 
+/* About Me */
 .flex-container {
-  display: inline-flex;
+  display: lex;
 }
 
 .aboutContainer {
-  width: 50%;
-  float: left;
-  padding: 20px;
+  text-align: left;
+  flex: 50%;
+  padding: 0 30px;
     
 }
 
 .imageContainer {
-  width: 50%;
   float: left;
-  padding: 20px;
+  flex: 50%;
+  padding: 0 30px;
     
 }
 
+/* Resume */
 .resumeContainer {
   display: flex;
 }
@@ -105,6 +104,9 @@ body {
 
 li {
   text-align: left;
+  font-size: 1.22em;
 }
+
+
 
 
