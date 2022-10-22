@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-image: url('./mainBackground.jpg');
   background-size: cover;
   background-repeat:no-repeat; 
@@ -12,7 +13,7 @@ body {
 .App {
   font-family: Copperplate;
   color: white;
-  padding: 0;
+  
   
 }
 
@@ -30,10 +31,11 @@ nav.mainNavbar {
 .mainNavbar li a {
   color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  padding: 20px 20px 20px;
+  padding: 100px;
   overflow: hidden;
+  text-align: center;
 }
 
 .mainNavbar li a:hover {color: aqua;}
@@ -67,9 +69,7 @@ nav.mainNavbar {
 
 .fade.show.popover.bs-popover-top {
    background: black;
-   
 }
-
 
 h3.popover-header {
   font-family: Copperplate;
@@ -81,26 +81,29 @@ h3.popover-header {
 div.popover-body {
   font-family: Copperplate;
   color: white;
-  font-size: 1.3em;
-  
+  font-size: 1.3em;  
 }
+
 
 /* About Me */
 .flex-container {
   display: flex;
+  flex-flow: row-reverse wrap;
 }
 
 .aboutContainer {
+  float: left;
   text-align: left;
-  flex: 50%;
+  
+  flex: 80%;
   padding: 0 30px;
     
 }
 
 .imageContainer {
   float: left;
-  flex: 50%;
-  padding: 0 30px;
+  flex: 20%;
+  padding: 10px;
     
 }
 
