@@ -1,11 +1,15 @@
-
-
-.App {
+body {
   background-image: url('./mainBackground.jpg');
   background-size: cover;
   background-repeat:no-repeat; 
-  min-width: 100vh;
+  position: static;
+  min-width: 100%;
   min-height: 100vh;
+  
+
+}
+
+.App {
   font-family: Copperplate;
   color: white;
   padding: 0;
@@ -30,7 +34,7 @@
 .mainNavbar li a {
   color: white;
   text-decoration: none;
-  position: static;
+  
   font-size: 24px;
   font-weight: bold;
   
@@ -80,3 +84,27 @@
   padding: 20px;
     
 }
+
+.resumeContainer {
+  display: flex;
+}
+
+.resumeLeft {
+  text-align: left;
+  flex: 50%;
+  padding: 0 30px;
+ 
+}
+
+.resumeRight {
+  text-align: left;
+  flex: 50%;
+  padding: 0 50px;
+  
+}
+
+li {
+  text-align: left;
+}
+
+
