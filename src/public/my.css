@@ -17,18 +17,14 @@ body {
 }
 
 /* CSS for Navbar */
-.mainNavbar {
-  display: block;
-  flex-direction: column;
+nav.mainNavbar {
+  display: inline-flex;
+  flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-    
-  padding-bottom: 400px;
-  padding-right: 15%;
-  padding-left: 100px;
   overflow: hidden;
-  text-align: right;
-  float: right;
+  padding: 20px 70px 50px;
+  
 }
 
 .mainNavbar li a {
@@ -36,8 +32,8 @@ body {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
-  
-  
+  padding: 20px 20px 20px;
+  overflow: hidden;
 }
 
 .mainNavbar li a:hover {color: aqua;}
@@ -56,7 +52,7 @@ body {
 
 /* Footer */
 .footer {
-  display: block;
+  display: flex;
   padding: 350px 120px;
   position: static;
   float: left;
@@ -64,9 +60,34 @@ body {
   
 }
 
+/* email and phone popover */
+.popover {
+  margin-bottom: 20px;
+}
+
+.fade.show.popover.bs-popover-top {
+   background: black;
+   
+}
+
+
+h3.popover-header {
+  font-family: Copperplate;
+  font-size: 1.4em;
+  font-weight: bolder;
+  background: linear-gradient(rgb(255, 105, 225) 10%, 60%, white 90%);  
+}
+
+div.popover-body {
+  font-family: Copperplate;
+  color: white;
+  font-size: 1.3em;
+  
+}
+
 /* About Me */
 .flex-container {
-  display: lex;
+  display: flex;
 }
 
 .aboutContainer {
