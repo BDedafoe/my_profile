@@ -11,12 +11,14 @@ const Resume = () => {
           <li>HTML and Web Accessibility</li>
           <li>JavaScript | React | Redux | Express</li>
           <li>Node.js</li>
+          <li>Python</li>
           <li>CSS and CSS Frameworks</li>
           <li>SQL | Sequelize | PGAdmin | Postgres</li>
           <li>MongoDB</li>
           <li>Database Development</li>
           <li>Github</li>
         <br></br>
+        <div className="education">
           <h2>Certification</h2>
             <h3>Google Data Analytics Specialization</h3>
             <h3>Coursera | Google - September 2022</h3>
@@ -30,6 +32,7 @@ const Resume = () => {
             <h3>Computer Information Systems</h3>
             <h3>University of Mount Olive</h3>
             <h3>Mount Olive, NC December 2012</h3>
+      </div>
       </div>
       <div className="resumeRight">
           <h2>Summary</h2>

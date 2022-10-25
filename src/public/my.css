@@ -1,20 +1,22 @@
 body {
   margin: 0;
+  padding: 10px;
   background-image: url('./mainBackground.jpg');
   background-size: cover;
   background-repeat:no-repeat; 
   position: static;
-  min-width: 100%;
+  min-width: 100vh;
   min-height: 100vh;
-  
+ 
 
 }
+
+
 
 .App {
   font-family: Copperplate;
   color: white;
-  
-  
+   
 }
 
 /* CSS for Navbar */
@@ -24,7 +26,7 @@ nav.mainNavbar {
   flex-wrap: wrap;
   list-style-type: none;
   overflow: hidden;
-  padding: 20px 70px 50px;
+  padding: 50px;
   
 }
 
@@ -40,76 +42,50 @@ nav.mainNavbar {
 
 .mainNavbar li a:hover {color: aqua;}
 
-/*  */
-
-
-/* Footer Icons */
-.fa-brands, .fa-solid {
-  color: rgb(255, 182, 249);
-}
-
-.fa-brands:hover, .fa-solid:hover {
-  color: aqua;
-}
-
-/* Footer */
-.footer {
+/* Social Icons */
+/* .makeStyles-icon-3 {
   display: flex;
-  padding: 350px 120px;
-  position: static;
-  float: left;
-  cursor: pointer;
-  
-}
+  padding-right: 50px;
+} */
 
-/* email and phone popover */
-.popover {
-  margin-bottom: 20px;
-}
 
-.fade.show.popover.bs-popover-top {
-   background: black;
+button:hover {
+  color: rgb(254, 129, 227);
 }
-
-h3.popover-header {
-  font-family: Copperplate;
-  font-size: 1.4em;
-  font-weight: bolder;
-  background: linear-gradient(rgb(255, 105, 225) 10%, 60%, white 90%);  
-}
-
-div.popover-body {
-  font-family: Copperplate;
-  color: white;
-  font-size: 1.3em;  
-}
-
 
 /* About Me */
 .flex-container {
   display: flex;
-  flex-flow: row-reverse wrap;
+  flex-wrap: wrap;
+  
 }
 
 .aboutContainer {
   float: left;
   text-align: left;
-  
-  flex: 80%;
+  flex: 50%;
   padding: 0 30px;
     
 }
 
 .imageContainer {
   float: left;
-  flex: 20%;
+  flex: 50%;
   padding: 10px;
     
+}
+
+@media (max-width: 800px) {
+  .aboutContainer, .imageContainer {
+    flex: 100%;
+  }
 }
 
 /* Resume */
 .resumeContainer {
   display: flex;
+  text-align: left;
+  
 }
 
 .resumeLeft {
@@ -119,6 +95,7 @@ div.popover-body {
  
 }
 
+
 .resumeRight {
   text-align: left;
   flex: 50%;
@@ -127,7 +104,6 @@ div.popover-body {
 }
 
 li {
-  text-align: left;
   font-size: 1.22em;
 }
 
