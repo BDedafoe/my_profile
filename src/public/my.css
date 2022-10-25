@@ -43,10 +43,10 @@ nav.mainNavbar {
 .mainNavbar li a:hover {color: aqua;}
 
 /* Social Icons */
-/* .makeStyles-icon-3 {
+.makeStyles-icon-3 {
   display: flex;
   padding-right: 50px;
-} */
+} 
 
 
 button:hover {
@@ -84,7 +84,7 @@ button:hover {
 /* Resume */
 .resumeContainer {
   display: flex;
-  text-align: left;
+  flex-wrap: wrap;
   
 }
 
@@ -103,10 +103,27 @@ button:hover {
   
 }
 
+@media (max-width: 800px) {
+  .resumeLeft, .resumeRight {
+    flex: 100%;
+  }
+}
+
 li {
   font-size: 1.22em;
 }
 
 
 
+.MuiSpeedDialIcon-icon {
+  color: white;
+}
+
+.speedDial {
+  background: white;
+}
+
+.MuiSpeedDialAction-fab {
+  background: red;
+}
 

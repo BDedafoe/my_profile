@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
   },
   icon: {
     fontSize: '1.1em',
-    
   },
   
 
