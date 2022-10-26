@@ -20,7 +20,7 @@ import { SpeedDials } from './content/speedDial';
           <NavLink
             to="/home"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : '#545e6f',
+              color: isActive ? 'aqua' : '#545e6f',
               background: isActive ? 'none' : 'none',
               textDecoration: 'none',
               alignItems: 'center',
@@ -31,7 +31,7 @@ import { SpeedDials } from './content/speedDial';
           <NavLink
             to="/about"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : '#545e6f',
+              color: isActive ? 'aqua' : '#545e6f',
               background: isActive ? 'none' : 'none',
               textDecoration: 'none',
             })}
@@ -41,7 +41,7 @@ import { SpeedDials } from './content/speedDial';
           <NavLink
             to="/portfolio"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : '#545e6f',
+              color: isActive ? 'aqua' : '#545e6f',
               background: isActive ? 'none' : 'none',
               textDecoration: 'none',
             })}
@@ -51,7 +51,7 @@ import { SpeedDials } from './content/speedDial';
           <NavLink
             to="/resume"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : '#545e6f',
+              color: isActive ? 'aqua' : '#545e6f',
               background: isActive ? 'none' : 'none',
               textDecoration: 'none',
             })}

@@ -100,6 +100,58 @@ li {
   background: red;
 }
 
+/* Home Page CSS */
+.homePage {
+  width: 80%;
+  margin-left: 6rem;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.heading {
+  width: 30%;
+  font-size: 1.15rem;
+}
+._img {
+  margin: 8em;
+  width: 35em;
+  height: 20em;
+  
+}
+._content_wrapper {
+  width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .home {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  ._img {
+    margin: 2em;
+  }
+  ._content_wrapper {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    margin-left: 3em;
+    margin-right: 3em;
+    flex-direction: column;
+  }
+  ._img {
+    width: 15em;
+    height: 12em;
+  }
+  ._content_wrapper {
+    width: 15em;
+  }
+}
+
+
 /* About Me CSS */
 .about {
   width: 80%;
