@@ -10,7 +10,7 @@ import Resume from './views/resume';
 import { SocialIcons } from './content/socialIcons';
 import { Hidden } from '@material-ui/core';
 import { SpeedDials } from './content/speedDial';
-import { CssBaseline } from "@material-ui/core";
+
 
 
 const App = () => {

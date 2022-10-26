@@ -1,3 +1,4 @@
+/* Body CSS */
 body {
   
   background-image: url('./mainBackground.jpg');
@@ -13,7 +14,7 @@ body {
 }
 
 
-
+/* App CSS */
 .App {
   font-family: Copperplate;
   color: white;
@@ -21,7 +22,7 @@ body {
   
 }
 
-/* CSS for Navbar */
+/* Navbar CSS */
 .nav {
   position: fixed;
   display: flex;
@@ -53,7 +54,7 @@ button:hover {
 
 
 
-/* Resume */
+/* Resume CSS */
 .resumeContainer {
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +87,7 @@ li {
 }
 
 
-
+/* Contact Info Icons */
 .MuiSpeedDialIcon-icon {
   color: white;
 }
@@ -99,7 +100,7 @@ li {
   background: red;
 }
 
-/* About Me */
+/* About Me CSS */
 .about {
   width: 80%;
   margin-left: 6rem;
