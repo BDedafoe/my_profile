@@ -65,8 +65,7 @@ import { SpeedDials } from './content/speedDial';
             <Route path='/portfolio' element={<Portfolio/>} />
             <Route path='/resume' element={<Resume/>} />
           </Routes>
-      </Router> 
-      
+        </Router>
       <Hidden smDown>
       <SocialIcons />
       </Hidden>
