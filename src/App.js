@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import './public/my.css';
 import './App.css';
 import { Portfolio } from './views/portfolio';
@@ -59,14 +59,14 @@ import { SpeedDials } from './content/speedDial';
             Resume
           </NavLink>
         </div>
-          <Switch>
-            <Route path='/home' exact component={Home} />
-            <Route path='/about' exact component={About} />
-            <Route path='/portfolio' exact component={Portfolio} />
-            <Route path='/resume' exact component={Resume} />
-          </Switch>
-      </Router>
-
+        <Routes>
+            <Route path='/home' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/portfolio' element={<Portfolio/>} />
+            <Route path='/resume' element={<Resume/>} />
+          </Routes>
+      </Router> 
+      
       <Hidden smDown>
       <SocialIcons />
       </Hidden>
