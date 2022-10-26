@@ -1,19 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import './public/my.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Portfolio from './views/portfolio';
+import { Portfolio } from './views/portfolio';
 import { About } from './views/about';
-import Home from './views/home';
-import Resume from './views/resume';
+import { Home } from './views/home';
+import { Resume } from './views/resume';
 import { SocialIcons } from './content/socialIcons';
 import { Hidden } from '@material-ui/core';
 import { SpeedDials } from './content/speedDial';
 
 
 
-const App = () => {
+ export const App = () => {
   return (
     <div className="App"> 
       <Router>
@@ -60,12 +60,12 @@ const App = () => {
             Resume
           </NavLink>
         </div>
-          <Routes>
-            <Route path='/home' element={<Home/>} />
-            <Route path='/about' element={<About/>} />
-            <Route path='/portfolio' element={<Portfolio/>} />
-            <Route path='/resume' element={<Resume/>} />
-          </Routes>
+          <Switch>
+            <Route path='/home' exact component={Home} />
+            <Route path='/about' exact component={About} />
+            <Route path='/portfolio' exact component={Portfolio} />
+            <Route path='/resume' exact component={Resume} />
+          </Switch>
       </Router>
 
       <Hidden smDown>
@@ -78,6 +78,6 @@ const App = () => {
   );
 }
 
-export default App
+
 
 

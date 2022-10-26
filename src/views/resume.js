@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Resume = () => { 
+export const Resume = () => { 
   return (
     <div className="resumeContainer">
       <div className="resumeLeft">
@@ -54,4 +54,3 @@ const Resume = () => {
     </div>
   );
 }
-export default Resume;

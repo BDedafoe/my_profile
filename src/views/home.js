@@ -1,6 +1,6 @@
 import React from "react";
 
-function Profile () {
+export function Home () {
     return (
         <div>
             <h2>Brittany Dedafoe</h2>
@@ -13,4 +13,3 @@ function Profile () {
     );
 }
     
-export default Profile;
