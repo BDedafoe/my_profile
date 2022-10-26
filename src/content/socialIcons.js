@@ -37,7 +37,7 @@ export const SocialIcons = () => {
     >
       <Tooltip
         title={socialItem.username}
-        placement='left'
+        placement='right'
         TransitionComponent={Zoom}  
       >
         <IconButton

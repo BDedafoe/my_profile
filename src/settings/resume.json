@@ -46,6 +46,12 @@
                 "x_icon": "fab fa-discord"
             },
             {
+                "network": "Slack",
+                "username": "bmd6260",
+                "url": "https://slack.com",
+                "x_icon": "fab fa-slack"
+            },
+            {
                 "network": "Facebook",
                 "username": "brittany.dedafoe",
                 "url": "https://www.facebook.com/brittany.dedafoe",

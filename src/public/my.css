@@ -1,12 +1,13 @@
 body {
-  margin: 0;
-  padding: 10px;
+  
   background-image: url('./mainBackground.jpg');
   background-size: cover;
   background-repeat:no-repeat; 
-  position: static;
-  min-width: 100vh;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  
 
 }
@@ -16,31 +17,28 @@ body {
 .App {
   font-family: Copperplate;
   color: white;
-   
-}
-
-/* CSS for Navbar */
-nav.mainNavbar {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  overflow: hidden;
-  padding: 50px;
+  padding-left: 60px;
   
 }
 
-.mainNavbar li a {
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 100px;
-  overflow: hidden;
-  text-align: center;
+/* CSS for Navbar */
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 20px;
+  left: 300px;
+  list-style-type: none;
+  font-size: 1.5em;
 }
 
-.mainNavbar li a:hover {color: aqua;}
+a {
+  margin-right: 150px;
+  
+}
+
+
+
 
 /* Social Icons */
 .makeStyles-icon-3 {
@@ -53,33 +51,7 @@ button:hover {
   color: rgb(254, 129, 227);
 }
 
-/* About Me */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  
-}
 
-.aboutContainer {
-  float: left;
-  text-align: left;
-  flex: 50%;
-  padding: 0 30px;
-    
-}
-
-.imageContainer {
-  float: left;
-  flex: 50%;
-  padding: 10px;
-    
-}
-
-@media (max-width: 800px) {
-  .aboutContainer, .imageContainer {
-    flex: 100%;
-  }
-}
 
 /* Resume */
 .resumeContainer {
@@ -127,3 +99,55 @@ li {
   background: red;
 }
 
+/* About Me */
+.about {
+  width: 80%;
+  margin-left: 6rem;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.heading {
+  width: 30%;
+  font-size: 1.15rem;
+}
+._img {
+  margin: 8em;
+  width: 35em;
+  height: 20em;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.51);
+}
+._content_wrapper {
+  width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  ._img {
+    margin: 2em;
+  }
+  ._content_wrapper {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    margin-left: 3em;
+    margin-right: 3em;
+    flex-direction: column;
+  }
+  ._img {
+    width: 15em;
+    height: 12em;
+  }
+  ._content_wrapper {
+    width: 15em;
+  }
+}
