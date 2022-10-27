@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   top: 20px;
-  left: 400px;
+  left: 250px;
   list-style-type: none;
   font-size: 1.5em;
 }
@@ -38,13 +38,18 @@ a {
   
 }
 
-
-
+@media (max-width: 768px) {
+  .nav {
+  display: flex;
+  flex-direction: column;
+  }
+}
 
 /* Social Icons */
 .makeStyles-icon-3 {
   display: flex;
-  padding-right: 50px;
+  padding-right: 60px;
+  
 } 
 
 
@@ -55,6 +60,17 @@ button:hover {
 
 
 /* Resume CSS */
+.resumePage {
+  width: 80%;
+  margin-left: 6rem;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+
 .resumeContainer {
   display: flex;
   flex-wrap: wrap;
@@ -96,9 +112,7 @@ li {
   background: white;
 }
 
-.MuiSpeedDialAction-fab {
-  background: red;
-}
+
 
 /* Home Page CSS */
 .homePage {
@@ -143,8 +157,8 @@ li {
     flex-direction: column;
   }
   ._img {
-    width: 15em;
-    height: 12em;
+    width: 30em;
+    height: 30em;
   }
   ._content_wrapper {
     width: 15em;

@@ -1,7 +1,20 @@
 import React from 'react';
+import { Container } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  main: {
+    maxWidth: '100vw',
+    marginTop: '3em',
+    marginBottom: "auto",
+  },
+}));
 
 export const Resume = () => { 
+  const classes = useStyles();
   return (
+    <section id="resumePage">
+      <Container component="main" className={classes.main} maxWidth="md">
     <div className="resumeContainer">
       <div className="resumeLeft">
         <h2>Skills</h2>
@@ -52,5 +65,7 @@ export const Resume = () => {
             <li>Resolved problems with high-profile customers to solidify customer retention</li>
       </div>
     </div>
+    </Container>
+    </section>
   );
 }
