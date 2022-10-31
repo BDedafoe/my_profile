@@ -11,7 +11,6 @@ import { Hidden } from '@material-ui/core';
 import { SpeedDials } from './content/speedDial';
 
 
-
  export const App = () => {
   return (
     <div className="App"> 

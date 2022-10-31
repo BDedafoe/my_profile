@@ -17,9 +17,9 @@ export function Home () {
     const homeGreetings = "Brittany Dedafoe";
     const homeInfo = `Programmer + Web Developer`;
     return (
-        <section id="homePage">
+        <section id="home">
       <Container component="main" className={classes.main} maxWidth="md">
-        <div className="homePage">
+        <div className="home">
           <div className="_img"
             style={{ 
               background: "url(" + homePic + ")",

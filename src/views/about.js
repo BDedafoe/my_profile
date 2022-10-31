@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-import aboutMe from '../public/aboutMe.JPG'
+import aboutMe2 from '../public/aboutMe2.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -24,7 +24,7 @@ export const About = () => {
         <div className="about">
           <div className="_img"
             style={{ 
-              background: "url(" + aboutMe + ")",
+              background: "url(" + aboutMe2 + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
@@ -40,6 +40,6 @@ export const About = () => {
           </div>
           </Container>
           </section>
-  );
-          };
+    );
+};
 
