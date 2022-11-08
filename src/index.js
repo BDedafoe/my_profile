@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = document.getElementById('root'); // <- This is the //correct method call for React version 17
 render(
   <React.StrictMode>
-    <App tab="/home"/>
+    <App />
   </React.StrictMode>,
   root
 );
