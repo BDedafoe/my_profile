@@ -35,16 +35,17 @@ export const Resume = () => {
           <h2>Certification</h2>
             <h3>Google Data Analytics Specialization</h3>
             <h3>Coursera | Google - September 2022</h3>
+            
         <br></br>    
           <h2>Education</h2>
             <h3>NC State Coding Bootcamp</h3>
-            <h3>North Carolina State University - Raleigh, NC</h3>
-            <h3>December 2022</h3>
+            <h3>North Carolina State University</h3>
+            <h3>Raleigh, NC - December 2022</h3>
           <br></br>
             <h3>Bachelor of Science</h3>
             <h3>Computer Information Systems</h3>
             <h3>University of Mount Olive</h3>
-            <h3>Mount Olive, NC December 2012</h3>
+            <h3>Mount Olive, NC - December 2012</h3>
       </div>
       </div>
       <div className="resumeRight">

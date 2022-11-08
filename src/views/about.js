@@ -22,7 +22,7 @@ export const About = () => {
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
-          <div className="_img"
+          <div className="about_img"
             style={{ 
               background: "url(" + aboutMe2 + ")",
               backgroundSize: 'contain',
@@ -32,10 +32,11 @@ export const About = () => {
           >
           </div>
           <div className="_content_wrapper">
-              <h2>{greetings}</h2>
-            <p className="aboutme">
+              <h1>{greetings}</h1>
+            <br></br>
+            <h4 className="aboutme">
               {aboutme}
-            </p>
+            </h4>
           </div>
           </div>
           </Container>

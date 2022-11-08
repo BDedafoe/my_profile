@@ -5,7 +5,7 @@ import Resume from "../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
-      position: "absolute",
+      position: "fixed",
       top: theme.spacing(6),
       left: theme.spacing(2),
     },

@@ -3,8 +3,10 @@ import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-
+import petfaxIMG from '../public/petfaxIMG.png'
 import laptopIMG from '../public/laptopIMG.png'
+import recipeIMG from '../public/recipeIMG.png'
+import tetrisIMG from '../public/tetrisIMG.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -28,27 +30,28 @@ export const Portfolio = () => {
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      
+      title: 'Recipe App', 
+      description: `A React App built using Edamam's Recipe Search API to browse
+      hundreds of recipes if you're drawing a blank when it comes to whipping something
+      up in the kitchen`,
+      alter: 'Recipe App',
+      image: `${recipeIMG}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      
+      title: 'Tetris', 
+      description: `This fun front-end side project was built using only HTML and JavaScript to
+      keep you entertained`,
+      alter: 'Tetris',
+      image: `${tetrisIMG}`,
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
+      title: 'PetFax App', 
+      description: `This Python App provides random facts about some of your favorite animals.
+      Users can also add their name and a new fact about an animal. This information is stored in PGAdmin and displayed on the facts page.`,
+      alter: 'PetFax App',
+      image: `${petfaxIMG}`,
       
     },
     { 

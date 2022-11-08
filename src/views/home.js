@@ -20,7 +20,7 @@ export function Home () {
         <section id="home">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="home">
-          <div className="_img"
+          <div className="home_img"
             style={{ 
               background: "url(" + homePic + ")",
               backgroundSize: 'contain',

@@ -7,7 +7,7 @@ import Resume from '../settings/resume.json';
 const useStyles = makeStyles((theme) => ({
   socialIcons: {
     position: 'fixed',
-    bottom: theme.spacing(20),
+    bottom: theme.spacing(30),
     left: theme.spacing(6),
   },
   iconButton: {
@@ -38,7 +38,7 @@ export const SocialIcons = () => {
       <Tooltip
         title={socialItem.username}
         placement='right'
-        TransitionComponent={Zoom}  
+        TransitionComponent={Zoom}
       >
         <IconButton
           color='inherit'

@@ -17,9 +17,9 @@ import { SpeedDials } from './content/speedDial';
       <Router>
         <div className="nav">
           <NavLink
-            to="/home"
+            to="/"
             style={({ isActive }) => ({
-              color: isActive ? 'aqua' : '#545e6f',
+              color: isActive ? '#545e6f' : '#545e6f',
               background: isActive ? 'none' : 'none',
               textDecoration: 'none',
               alignItems: 'center',
@@ -59,7 +59,7 @@ import { SpeedDials } from './content/speedDial';
           </NavLink>
         </div>
         <Routes>
-            <Route path='/home' element={<Home/>} />
+            <Route path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/portfolio' element={<Portfolio/>} />
             <Route path='/resume' element={<Resume/>} />
