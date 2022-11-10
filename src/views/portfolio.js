@@ -21,7 +21,7 @@ export const Portfolio = () => {
   const classes = useStyles();
   const [projects] = useState([
     { 
-      id: 5,
+      id: 1,
       title: 'Grocery List', 
       description: `This App allows users to register an account and also log in to their account to view
       recipes from a recipe API and also log a list of ingredients needed for the dish. The user information
@@ -56,7 +56,7 @@ export const Portfolio = () => {
       
     },
     { 
-      id: 1,
+      id: 5,
       title: 'React Portfolio', 
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
