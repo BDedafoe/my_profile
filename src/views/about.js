@@ -34,9 +34,9 @@ export const About = () => {
           <div className="_content_wrapper">
               <h1>{greetings}</h1>
             <br></br>
-            <h4 className="aboutme">
+            <h3 className="aboutme">
               {aboutme}
-            </h4>
+            </h3>
           </div>
           </div>
           </Container>

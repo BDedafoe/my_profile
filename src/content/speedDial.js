@@ -10,8 +10,7 @@ const useStyles = makeStyles((theme) => ({
       left: theme.spacing(2),
     },
     iconColor: {
-      color: 'inherent',
-      
+      color: 'inherent',      
     },
     
 }));

@@ -17,7 +17,7 @@ export const Resume = () => {
       <Container component="main" className={classes.main} maxWidth="md">
     <div className="resumeContainer">
       <div className="resumeLeft">
-        <h2>Skills</h2>
+        <h1>Skills</h1>
           <li>Back-End Development</li>
           <li>UX and UI Design</li>
           <li>Front-End Development</li>
@@ -26,18 +26,20 @@ export const Resume = () => {
           <li>Node.js</li>
           <li>Python</li>
           <li>CSS and CSS Frameworks</li>
+          <li>Tailwind CSS</li>
           <li>SQL | Sequelize | PGAdmin | Postgres</li>
           <li>MongoDB</li>
           <li>Database Development</li>
+          <li>Postman</li>
           <li>Github</li>
         <br></br>
         <div className="education">
-          <h2>Certification</h2>
+          <h1>Certification</h1>
             <h3>Google Data Analytics Specialization</h3>
             <h3>Coursera | Google - September 2022</h3>
             
         <br></br>    
-          <h2>Education</h2>
+          <h1>Education</h1>
             <h3>NC State Coding Bootcamp</h3>
             <h3>North Carolina State University</h3>
             <h3>Raleigh, NC - December 2022</h3>
@@ -49,10 +51,13 @@ export const Resume = () => {
       </div>
       </div>
       <div className="resumeRight">
-          <h2>Summary</h2>
-            <h3>Accomplished COO looking to channel my skillsets toward a new career in programming.  Experience in full stack development, and a passion for learning new skills and developing new applications. I’m decisive, make quick and effective decisions, and maintain excellent client relations while meeting deadlines.  I work extremely hard and will go above and beyond to meet more than the expectation. </h3>
+          <h1>Summary</h1>
+            <h3>Accomplished COO looking to channel my skillsets toward a new career in programming.</h3> 
+            <h3>Experience in full stack development, and a passion for learning new skills and developing new applications.</h3>
+            <h3>My previous company was an E-commerce power cord manufacturer and distributor. Running an E-commerce business has given me the insight of how important a website is and also why I chose to leave my postion to persue my passion for design and development.</h3>
+            <h3>I’m decisive, make quick and effective decisions, and maintain excellent client relations while meeting deadlines. I work extremely hard and will go above and beyond to meet more than the expectation. </h3>
         <br></br>
-          <h2>Work History</h2>
+          <h1>Work History</h1>
           <h2>Iron Box</h2>
           <h2>COO | Raleigh, North Carolina</h2>
           <h2>April 2013 - March 2022</h2>
@@ -64,6 +69,7 @@ export const Resume = () => {
             <li>Developed non-disclosure agreements to work with competitors </li>
             <li>Assisted in the development of employee handbooks and company procedures for each department</li>
             <li>Resolved problems with high-profile customers to solidify customer retention</li>
+            <li>Held weekly team meetings with each department to improve production and employee morale</li>
       </div>
     </div>
     </Container>

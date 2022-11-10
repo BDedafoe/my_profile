@@ -4,9 +4,10 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import petfaxIMG from '../public/petfaxIMG.png'
-import laptopIMG from '../public/laptopIMG.png'
+import portfolioIMG from '../public/portfolioIMG.png'
 import recipeIMG from '../public/recipeIMG.png'
 import tetrisIMG from '../public/tetrisIMG.png'
+import grocerListIMG from '../public/groceryListIMG.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -20,13 +21,13 @@ export const Portfolio = () => {
   const classes = useStyles();
   const [projects] = useState([
     { 
-      id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${laptopIMG}`,
+      id: 5,
+      title: 'Grocery List', 
+      description: `This App allows users to register an account and also log in to their account to view
+      recipes from a recipe API and also log a list of ingredients needed for the dish. The user information
+      is stored in MongoDB along with their grocery list schemas.`,
+      alter: 'Grocery List',
+      image: `${grocerListIMG}`,
     },
     { 
       id: 2,
@@ -55,13 +56,13 @@ export const Portfolio = () => {
       
     },
     { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      
+      id: 1,
+      title: 'React Portfolio', 
+      description: `Designed and developed a ReactJS portfolio 
+      with fancy 3D animations using Three.js for 
+      the background element.`,
+      alter: 'React Portfolio',
+      image: `${portfolioIMG}`,
     },
   ]);
 
@@ -73,7 +74,7 @@ export const Portfolio = () => {
             <div className="__img_wrapper">
               <img src={ project.image } alt={ project.alter }/>
             </div>
-            <div className="__content_wrapper">
+            <div className="project__content_wrapper">
               <h1 className="title">
                 { project.id + '. ' + project.title }
               </h1>

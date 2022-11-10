@@ -2,7 +2,8 @@ import React from 'react';
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-import homePic from '../public/homePic.png'
+
+import main from '../public/main.jpeg'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -22,18 +23,19 @@ export function Home () {
         <div className="home">
           <div className="home_img"
             style={{ 
-              background: "url(" + homePic + ")",
+              background: "url(" + main + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
             }}
           >
           </div>
-          <div className="_content_wrapper">
-              <h2>{homeGreetings}</h2>
-            <p className="homeInfo">
+          <div className="home_content_wrapper">
+              <h1>{homeGreetings}</h1>
+            <br></br>
+            <h3 className="homeInfo">
               {homeInfo}
-            </p>
+            </h3>
           </div>
           </div>
           </Container>

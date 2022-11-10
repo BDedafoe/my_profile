@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     width: '2.5rem',
     display: 'flex',
     marginBottom: theme.spacing(3),
+    color: 'rgb(254, 129, 227)',
   },
   icon: {
     fontSize: '1.1em',
