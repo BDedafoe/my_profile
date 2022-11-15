@@ -29,12 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "reactSnapshot": {
-    "exclude": [
-      "/resume"
-    ],
-    "snapshotDelay": 500
-  },
+  
   "eslintConfig": {
     "extends": [
       "react-app",

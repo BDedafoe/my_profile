@@ -26,7 +26,7 @@ export const Resume = () => {
           <li>Node.js</li>
           <li>Python</li>
           <li>CSS and CSS Frameworks</li>
-          <li>Tailwind CSS</li>
+          <li>Tailwind | SASS</li>
           <li>SQL | Sequelize | PGAdmin | Postgres</li>
           <li>MongoDB</li>
           <li>Database Development</li>
@@ -54,7 +54,7 @@ export const Resume = () => {
           <h1>Summary</h1>
             <h3>Accomplished COO looking to channel my skillsets toward a new career in programming.</h3> 
             <h3>Experience in full stack development, and a passion for learning new skills and developing new applications.</h3>
-            <h3>My previous company was an E-commerce power cord manufacturer and distributor. Running an E-commerce business has given me the insight of how important a website is and also why I chose to leave my postion to persue my passion for design and development.</h3>
+            <h3>My previous company was an E-commerce power cord manufacturer and distributor which has given me the insight of how important a website is and why I chose to leave my position to pursue my passion for design and development.</h3>
             <h3>I’m decisive, make quick and effective decisions, and maintain excellent client relations while meeting deadlines. I work extremely hard and will go above and beyond to meet more than the expectation. </h3>
         <br></br>
           <h1>Work History</h1>
