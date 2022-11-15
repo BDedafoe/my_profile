@@ -19,10 +19,8 @@ import { SpeedDials } from './content/speedDial';
           <NavLink
             to="/"
             style={({ isActive }) => ({
-              color: isActive ? '#545e6f' : '#545e6f',
-              background: isActive ? 'none' : 'none',
-              textDecoration: 'none',
-              alignItems: 'center',
+              color: isActive ? 'aqua' : '#545e6f',
+              textDecoration: 'none'
             })}
           >
             Home
@@ -31,8 +29,7 @@ import { SpeedDials } from './content/speedDial';
             to="/about"
             style={({ isActive }) => ({
               color: isActive ? 'aqua' : '#545e6f',
-              background: isActive ? 'none' : 'none',
-              textDecoration: 'none',
+              textDecoration: 'none'
             })}
           >
             About Me
@@ -41,8 +38,7 @@ import { SpeedDials } from './content/speedDial';
             to="/portfolio"
             style={({ isActive }) => ({
               color: isActive ? 'aqua' : '#545e6f',
-              background: isActive ? 'none' : 'none',
-              textDecoration: 'none',
+              textDecoration: 'none'
             })}
           >
             Portfolio
@@ -51,8 +47,7 @@ import { SpeedDials } from './content/speedDial';
             to="/resume"
             style={({ isActive }) => ({
               color: isActive ? 'aqua' : '#545e6f',
-              background: isActive ? 'none' : 'none',
-              textDecoration: 'none',
+              textDecoration: 'none'
             })}
           >
             Resume
