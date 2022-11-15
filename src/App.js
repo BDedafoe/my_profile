@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import './public/my.css';
-import './App.css';
 import { Portfolio } from './views/portfolio';
 import { About } from './views/about';
 import { Home } from './views/home';
