@@ -15,8 +15,9 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Short Biography";
-  const aboutme = `Born in 1989 on in Army base in Landstuhl Germany. I grew up in Suffolk Virginia and made my start in Raleigh North Carolina.
-                  Currently following my wife whom is active duty in the military and am looking for a remote position for the ability to move around with my wife wherever she is needed.`;
+  const aboutme = `I was born on an Army base in Landstuhl Germany in 1989. I grew up in Suffolk Virginia and made my start in Raleigh North Carolina.
+                   Though my career path has recently changed; my passion for technology and creating has not. Traveling and exploring new places are what I like to do in my down time, but
+                   I'm usually taking an early morning jog before the Premier League games start.`;
 
   return (
     <section id="about">

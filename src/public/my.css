@@ -17,6 +17,7 @@ body {
   body {
     background-size: cover;
     background-position: center;
+
   }
 }
 
@@ -45,6 +46,7 @@ button:hover {
   color: white;
   
 }
+
 
 /* Navbar CSS */
 .nav {
@@ -183,7 +185,8 @@ li {
 }
 @media (max-width: 768px) {
   .home {
-    margin-left: 3em;
+    padding-top: 20px;
+    margin-left: 2em;
     margin-right: 3em;
     flex-direction: column;
     justify-content: center;
@@ -194,6 +197,7 @@ li {
   }
   .home_content_wrapper {
     width: 100%;
+    padding-top: 40px;
   }
 }
 

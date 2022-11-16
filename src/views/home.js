@@ -8,7 +8,7 @@ import main from '../public/main.jpeg'
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '100vw',
-    marginTop: '3em',
+    marginTop: '4em',
     marginBottom: "auto",
   },
 }));

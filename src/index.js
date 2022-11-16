@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import {App} from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = document.getElementById('root'); // <- This is the //correct method call for React version 17
