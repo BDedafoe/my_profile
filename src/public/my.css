@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Abel&family=Bowlby+One&family=Roboto:ital,wght@1,100;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300;1,400&display=swap');
 
 /* Body CSS */
@@ -55,10 +54,10 @@ button:hover {
   width: 100%;
   padding-top: 24px;
   list-style-type: none;
-  font-size: 1.5em;
+  font-size: 1.6em;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-style: italic;
   
 }
 
@@ -67,11 +66,26 @@ a {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .nav, a {
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 90px;
+  width: 90%;
+  
+  }
+
+  a {
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav, a {
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+  width: 80%;
   
   }
 
@@ -125,7 +139,26 @@ li {
   font-size: 1.21em;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .resumeLeft {
+    flex: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;  
+  }
+
+  .resumeRight {
+    flex: 100%;
+    flex-direction: column;
+    margin-bottom: 20px; 
+  }
+
+  .resumeContainer {
+    width: 100%;
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .resumeLeft {
     flex: 100%;
     flex-direction: column;
@@ -197,7 +230,7 @@ li {
   }
   .home_content_wrapper {
     width: 100%;
-    padding-top: 40px;
+    
   }
 }
 
@@ -248,7 +281,7 @@ li {
     margin-left: 3em;
     margin-right: 3em;
     flex-direction: column;
-    padding-top: 40px;
+    padding-top: 10px;
     justify-content: center;
   }
   .about_img {
