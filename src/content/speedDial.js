@@ -5,14 +5,14 @@ import Resume from "../settings/resume.json";
 
 const useStyles = makeStyles((theme) => ({
     speedDial: {
-      position: "fixed",
+      position: 'fixed',
       top: theme.spacing(6),
       left: theme.spacing(2),
     },
     iconColor: {
       color: 'rgb(195, 0, 255)',
     },
-    
+  
 }));
 
 export const SpeedDials = () => {
