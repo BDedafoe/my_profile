@@ -25,6 +25,7 @@ export const Resume = () => {
           <li>JavaScript | React | Redux | Express</li>
           <li>Node.js</li>
           <li>Python</li>
+          <li>Typescript</li>
           <li>CSS and CSS Frameworks</li>
           <li>Tailwind | SASS</li>
           <li>SQL | Sequelize | PGAdmin | Postgres</li>
@@ -40,7 +41,7 @@ export const Resume = () => {
             
         <br></br>    
           <h1>Education</h1>
-            <h3>NC State Coding Bootcamp</h3>
+            <h3>Software Development Professional Certificate</h3>
             <h3>North Carolina State University</h3>
             <h3>Raleigh, NC - December 2022</h3>
           <br></br>
