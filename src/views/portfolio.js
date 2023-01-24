@@ -8,6 +8,7 @@ import portfolioIMG from '../public/portfolioIMG.png'
 import recipeIMG from '../public/recipeIMG.png'
 import tetrisIMG from '../public/tetrisIMG.png'
 import grocerListIMG from '../public/groceryListIMG.png'
+import storyBooksIMG from '../public/storyBooksIMG.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -22,6 +23,14 @@ export const Portfolio = () => {
   const [projects] = useState([
     { 
       id: 1,
+      title: 'StoryBooks', 
+      description: `A Node.js app which users can upload public and private stories from their lives. 
+      The public stories are seen by all users of the app where the private stories are only visible to the user that created it. Secured login using Google-OAuth 2.0 and all stories and user information is stored on MongoDB Atlas.`,
+      alter: 'StoryBooks',
+      image: `${storyBooksIMG}`,
+    },
+    { 
+      id: 2,
       title: 'Grocery List', 
       description: `This App allows users to register an account and also log in to their account to view
       recipes from a recipe API and also log a list of ingredients needed for the dish. The user information
@@ -30,7 +39,7 @@ export const Portfolio = () => {
       image: `${grocerListIMG}`,
     },
     { 
-      id: 2,
+      id: 3,
       title: 'Recipe App', 
       description: `A React App built using Edamam's Recipe Search API to browse
       hundreds of recipes if you're drawing a blank when it comes to whipping something
@@ -39,7 +48,7 @@ export const Portfolio = () => {
       image: `${recipeIMG}`,
     },
     { 
-      id: 3,
+      id: 4,
       title: 'Tetris', 
       description: `This fun front-end side project was built using only HTML and JavaScript to
       keep you entertained`,
@@ -47,7 +56,7 @@ export const Portfolio = () => {
       image: `${tetrisIMG}`,
     },
     { 
-      id: 4,
+      id: 5,
       title: 'PetFax App', 
       description: `This Python App provides random facts about some of your favorite animals.
       Users can also add their name and a new fact about an animal. This information is stored in PGAdmin and displayed on the facts page.`,
@@ -56,7 +65,7 @@ export const Portfolio = () => {
       
     },
     { 
-      id: 5,
+      id: 6,
       title: 'React Portfolio', 
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
