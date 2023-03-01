@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-
+import aboutMe3 from '../public/aboutMe3.png'
 import aboutMe2 from '../public/aboutMe2.png'
 
 const useStyles = makeStyles((theme) => ({
@@ -15,16 +15,17 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Short Biography";
-  const aboutme = `I was born on an Army base in Landstuhl Germany, grew up in Suffolk Virginia and made my start in Raleigh North Carolina.
-                   Though my career path has recently changed; my passion for technology and creating has not. Traveling and exploring new places are what I like to do in my down time, but
-                   I'm usually taking an early morning jog before the Premier League games start.`;
+  const aboutMe = `I was born in Landstuhl Germany, grew up in Suffolk Virginia, and made my start in Raleigh North Carolina. I’ve always been curious about technology and continue to channel my curiosity with learning something new to implement in my project designs. Even learning something new in general or playing with a new piece of technology has always been fun for me. My career path has changed recently but my passion for technology and creating has not.`;
+
+  const aboutme3 = `I traveled a bit growing up and continue to travel whenever I can. Just like technology, there’s so much left to be explored in this world. Realistically I’m riding my bike or getting my steps in after coffee. I enjoy being active which balances my appreciation for craft beer and bourbon. `;
+
 
   return (
-    <section id="about">
+    <><section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="about_img"
-            style={{ 
+            style={{
               background: "url(" + aboutMe2 + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
@@ -33,15 +34,36 @@ export const About = () => {
           >
           </div>
           <div className="_content_wrapper">
-              <h1>{greetings}</h1>
+            <h1>{greetings}</h1>
             <br></br>
             <h3 className="aboutme">
-              {aboutme}
+              {aboutMe}
             </h3>
           </div>
+        </div>
+      </Container>
+    </section><section id="about">
+        <Container component="main" className={classes.main} maxWidth="md">
+          <div className="about2">
+          <div className="_content_wrapper">
+              <h1>About Me</h1>
+              <br></br>
+              <h3 className="aboutme">
+                {aboutme3}
+              </h3>
+            </div>
+            <div className="about_img"
+              style={{
+                background: "url(" + aboutMe3 + ")",
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+              }}
+            >
+            </div>
           </div>
-          </Container>
-          </section>
+        </Container>
+      </section></>
     );
 };
 

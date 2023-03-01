@@ -242,15 +242,26 @@ li {
 /* About Me CSS */
 .about {
   width: 80%;
-  margin-left: 6rem;
+  margin-left: 5rem;
   margin-right: 7rem;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: left;
   font-size: 1.15rem;
 }
+
+.about2 {
+  width: 80%;
+  margin-left: 13rem;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  font-size: 1.15rem;
+}
+
 .heading {
   width: 30%;
   
@@ -268,8 +279,16 @@ li {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
+._content_wrapper h1 {
+  text-shadow: aqua 2px 2px 5px;
+}
+
 @media (max-width: 1024px) {
   .about {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .about2 {
     margin-left: 3rem;
     margin-right: 3rem;
   }
@@ -288,6 +307,13 @@ li {
     padding-top: 10px;
     justify-content: center;
   }
+  .about2 {
+    margin-left: 3em;
+    margin-right: 3em;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+  }
   .about_img {
     width: 20em;
     height: 12em;
@@ -296,6 +322,9 @@ li {
     width: 15em;
   }
 }
+
+
+
 
 /* Portfolio CSS */
 .project {
