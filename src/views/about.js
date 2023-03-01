@@ -17,7 +17,7 @@ export const About = () => {
   const greetings = "Short Biography";
   const aboutMe = `I was born in Landstuhl Germany, grew up in Suffolk Virginia, and made my start in Raleigh North Carolina. I’ve always been curious about technology and continue to channel my curiosity with learning something new to implement in my project designs. Even learning something new in general or playing with a new piece of technology has always been fun for me. My career path has changed recently but my passion for technology and creating has not.`;
 
-  const aboutme3 = `I traveled a bit growing up and continue to travel whenever I can. Just like technology, there’s so much left to be explored in this world. Realistically I’m riding my bike or getting my steps in after coffee. I enjoy being active which balances my appreciation for craft beer and bourbon. `;
+  const aboutme3 = `I traveled a bit growing up and continue to travel whenever I can. Just like technology, there’s so much left to be explored in this world. Realistically, I’m riding my bike or getting my steps in after coffee. I enjoy being active which balances my appreciation for craft beer and bourbon. `;
 
 
   return (

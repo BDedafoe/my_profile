@@ -110,6 +110,7 @@ a {
 
 h1 {
   font-size: 2em;
+  text-shadow: aqua 1px 1px 3px;
 }
 
 .resumeContainer {
@@ -280,7 +281,7 @@ li {
 }
 
 ._content_wrapper h1 {
-  text-shadow: aqua 2px 2px 5px;
+  text-shadow: aqua 1px 1px 3px;
 }
 
 @media (max-width: 1024px) {
