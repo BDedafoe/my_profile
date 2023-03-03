@@ -9,6 +9,7 @@ import recipeIMG from '../public/recipeIMG.png'
 import tetrisIMG from '../public/tetrisIMG.png'
 import grocerListIMG from '../public/groceryListIMG.png'
 import storyBooksIMG from '../public/storyBooksIMG.png'
+import drinksIMG from '../public/drinksIMG.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -31,6 +32,13 @@ export const Portfolio = () => {
     },
     { 
       id: 2,
+      title: 'Cocktail App', 
+      description: `Easy and yet convenient React App that allows you to search for hundreds of cocktail recipes by ingredient or by cocktail name. The JSON data is pulled from a cocktail database API and rendered with simple styling. The styling aspect also makes this app convenient for looking something up on the go.`,
+      alter: 'Cocktail App',
+      image: `${drinksIMG}`,
+    },
+    { 
+      id: 3,
       title: 'Grocery List', 
       description: `This App allows users to register an account and also log in to their account to view
       recipes from a recipe API and also log a list of ingredients needed for the dish. The user information
@@ -39,7 +47,7 @@ export const Portfolio = () => {
       image: `${grocerListIMG}`,
     },
     { 
-      id: 3,
+      id: 4,
       title: 'Recipe App', 
       description: `A React App built using Edamam's Recipe Search API to browse
       hundreds of recipes if you're drawing a blank when it comes to whipping something
@@ -48,7 +56,7 @@ export const Portfolio = () => {
       image: `${recipeIMG}`,
     },
     { 
-      id: 4,
+      id: 5,
       title: 'Tetris', 
       description: `This fun front-end side project was built using only HTML and JavaScript to
       keep you entertained`,
@@ -56,7 +64,7 @@ export const Portfolio = () => {
       image: `${tetrisIMG}`,
     },
     { 
-      id: 5,
+      id: 6,
       title: 'PetFax App', 
       description: `This Python App provides random facts about some of your favorite animals.
       Users can also add their name and a new fact about an animal. This information is stored in PGAdmin and displayed on the facts page.`,
@@ -65,7 +73,7 @@ export const Portfolio = () => {
       
     },
     { 
-      id: 6,
+      id: 7,
       title: 'React Portfolio', 
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
