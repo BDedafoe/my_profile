@@ -54,7 +54,7 @@ export const Resume = () => {
       <div className="resumeRight">
           <h1>Summary</h1>
             <h3>Creating technology that connects customers to experiences in a meaningful and efficient way drives my product development process and inspired me to change careers. </h3> 
-            <h3>Detailed oriented developer with experience in full stack development possessing a passion for learning new skills and creating new applications. </h3>
+            <h3>Detail oriented developer with experience in full stack development possessing a passion for learning new skills and creating new applications. </h3>
             <h3>My previous company was an E-commerce power cord manufacturer and distributor which has given me the insight of how important a website is and why I chose to leave my position to pursue my passion for design and development.</h3>
             <h3>Decisive, able to make quick and effective decisions while maintaining excellent client relations and meeting deadlines. Multi-functional team player that will go above and beyond to meet more than the expectation.</h3>
         <br></br>
